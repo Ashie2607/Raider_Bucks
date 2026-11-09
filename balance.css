@@ -1,0 +1,447 @@
+.verenis {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1280px;
+  margin: 0 auto;
+  min-width: 1280px;
+  min-height: 832px;
+  position: relative;
+}
+
+.verenis .line {
+  position: absolute;
+  top: 73px;
+  left: calc(50.00% - 640px);
+  width: 1280px;
+  height: 6px;
+}
+
+.verenis .text-wrapper {
+  position: absolute;
+  top: 7px;
+  left: 25px;
+  width: 165px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c30020;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.verenis .div {
+  position: absolute;
+  top: 4px;
+  left: 187px;
+  width: 179px;
+  -webkit-text-stroke: 3px #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #fcf7f7;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .profile-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: -6px;
+  left: 1189px;
+}
+
+.verenis .image {
+  position: relative;
+  width: 61px;
+  height: 61px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.verenis .IMG {
+  position: absolute;
+  top: 4px;
+  left: 384px;
+  width: 66px;
+  height: 65px;
+  aspect-ratio: 1.02;
+}
+
+.verenis .home-button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 17px;
+  left: 795px;
+}
+
+.verenis .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #2b2f34;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.verenis .text-wrapper-3 {
+  position: absolute;
+  top: 27px;
+  left: 890px;
+  width: 84px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #c30020;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.verenis .bugdet-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 17px;
+  left: 990px;
+}
+
+.verenis .map-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 17px;
+  left: 1090px;
+}
+
+.verenis .img {
+  position: absolute;
+  top: 68px;
+  left: 880px;
+  width: 94px;
+  height: 7px;
+  background-color: #c30020;
+}
+
+.verenis .text-wrapper-4 {
+  position: absolute;
+  top: 89px;
+  left: 837px;
+  width: 357px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #363232;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-5 {
+  position: absolute;
+  top: 161px;
+  left: 755px;
+  width: 168px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-6 {
+  position: absolute;
+  top: 677px;
+  left: 757px;
+  width: 168px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-7 {
+  position: absolute;
+  top: 501px;
+  left: 757px;
+  width: 85px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .p {
+  position: absolute;
+  top: 335px;
+  left: 755px;
+  width: 193px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-8 {
+  top: 278px;
+  left: 755px;
+  position: absolute;
+  width: 98px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.verenis .text-wrapper-9 {
+  top: 789px;
+  left: 755px;
+  position: absolute;
+  width: 98px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.verenis .text-wrapper-10 {
+  top: 621px;
+  left: 755px;
+  position: absolute;
+  width: 98px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.verenis .text-wrapper-11 {
+  top: 454px;
+  left: 755px;
+  position: absolute;
+  width: 98px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.verenis .text-wrapper-12 {
+  top: 283px;
+  position: absolute;
+  left: 1112px;
+  width: 171px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-13 {
+  top: 457px;
+  position: absolute;
+  left: 1112px;
+  width: 171px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-14 {
+  top: 624px;
+  position: absolute;
+  left: 1112px;
+  width: 171px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-15 {
+  top: 792px;
+  position: absolute;
+  left: 1112px;
+  width: 171px;
+  -webkit-text-stroke: 1px #837f7f;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #837f7f;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .rectangle {
+  position: absolute;
+  top: 78px;
+  left: 0;
+  width: 743px;
+  height: 754px;
+  background-color: #c30020;
+}
+
+.verenis .text-wrapper-16 {
+  position: absolute;
+  top: 233px;
+  left: 47px;
+  width: 632px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-17 {
+  position: absolute;
+  top: 610px;
+  left: 47px;
+  width: 632px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-18 {
+  position: absolute;
+  top: 114px;
+  left: 47px;
+  width: 632px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .text-wrapper-19 {
+  position: absolute;
+  top: 463px;
+  left: 47px;
+  width: 632px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.verenis .line-2 {
+  position: absolute;
+  top: 77px;
+  left: 743px;
+  width: 3px;
+  height: 755px;
+}
+
+.verenis .line-3 {
+  position: absolute;
+  top: 149px;
+  left: 743px;
+  width: 537px;
+  height: 3px;
+}
+
+.verenis .line-4 {
+  position: absolute;
+  top: 323px;
+  left: 743px;
+  width: 537px;
+  height: 2px;
+}
+
+.verenis .line-5 {
+  position: absolute;
+  top: 830px;
+  left: 743px;
+  width: 537px;
+  height: 2px;
+}
+
+.verenis .line-6 {
+  position: absolute;
+  top: 667px;
+  left: 743px;
+  width: 537px;
+  height: 2px;
+}
+
+.verenis .line-7 {
+  position: absolute;
+  top: 498px;
+  left: 743px;
+  width: 537px;
+  height: 2px;
+}
+
+.verenis .line,
+.verenis .line-2,
+.verenis .line-3,
+.verenis .line-4,
+.verenis .line-5,
+.verenis .line-6,
+.verenis .line-7 {
+  background-color: #000000;
+}
