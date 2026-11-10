@@ -99,7 +99,9 @@ a:focus-visible {
   height: 65px;
   object-fit: contain;
 }
-
+.main-nav {
+  margin-left: auto;
+}
 .main-nav ul,
 .site-footer ul {
   list-style: none;
