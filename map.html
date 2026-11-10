@@ -1,14 +1,174 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> Temp Words </title>
-    </head>
 
-    <!-- We Will normalize the styles later i guess we should probbaly do it sooner than later -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raider Bucks Map</title>
+
     <style>
+        body {
+            background-color: #484242;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            background-color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 25px;
+            color: #192333;
+        }
+
+        h1 span {
+            color: red;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 22px;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        main {
+            display: flex;
+            background-color: white;
+            min-height: 600px;
+        }
+
+        .map-area {
+            width: 72%;
+            padding-top: 20px;
+        }
+
+        .search {
+            background-color: lightgray;
+            padding: 15px;
+            margin: 0 20px 30px 10px;
+            width: 350px;
+            max-width: 85%;
+        }
+
+        .search input {
+            font-size: 20px;
+            padding: 8px;
+            width: 95%;
+        }
+
+        .map-area img {
+            width: 100%;
+            height: auto;
+        }
+
+        .dining {
+            background-color: red;
+            width: 28%;
+            padding: 10px;
+        }
+
+        .dining h2 {
+            font-size: 27px;
+            font-weight: normal;
+        }
+
+        .location {
+            margin-bottom: 30px;
+        }
+
+        .location h3 {
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+
+        .location p {
+            margin-top: 0;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+        }
     </style>
-    
-    <body>
-        <h1> More Temp Words </h1>
-    </body>
+</head>
+
+<body>
+
+    <header>
+        <h1><span>RAIDER</span> BUCKS</h1>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="balance.html">Balance</a>
+            <a href="budget.html">Budget</a>
+            <a href="map.html" style="color:red;">Map</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="map-area">
+
+            <div class="search">
+                <input type="search"
+                       placeholder="Search Dining location"
+                       aria-label="Search dining locations">
+            </div>
+
+            <img src="c:\Users\jonjo\Downloads\campus-map.png"
+                 alt="Texas Tech University campus dining map">
+
+        </section>
+
+        <section class="dining">
+
+            <h2>Dining locations</h2>
+
+            <div class="location">
+                <h3>Chick-fil-A</h3>
+                <p>Hours: 10:00am-9:00pm</p>
+            </div>
+
+            <div class="location">
+                <h3>Pizza Hut</h3>
+                <p>Hours: 10:00am-3:00pm</p>
+            </div>
+
+            <div class="location">
+                <h3>Starbucks</h3>
+                <p>Hours: 7:00am-10:00pm</p>
+            </div>
+
+            <div class="location">
+                <h3>The Commons</h3>
+                <p>Hours: 8:00am-5:00pm</p>
+            </div>
+
+            <div class="location">
+                <h3>Fresh Plate</h3>
+                <p>Hours: 8:00am-5:00pm</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Raider Bucks - Texas Tech University</p>
+    </footer>
+
+</body>
 </html>
